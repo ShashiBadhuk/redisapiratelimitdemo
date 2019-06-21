@@ -1,0 +1,37 @@
+# Compiled binary addons 
+build/
+dist/
+dest/
+
+#ignore auto genreated files
+src/apps/config/vocabulary.list.json
+src/apps/config/language.list.json
+
+# DB Backups
+src/assets/backups
+
+# Dependency directory
+node_modules
+bower_components
+
+# temporary files created by OS
+*.DS_Store
+.DS_Store
+thumbs.db
+
+# temporary files created by Editors
+.idea/
+*.idea/
+.jshintrc
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# node-waf configuration
+.lock-wscript
